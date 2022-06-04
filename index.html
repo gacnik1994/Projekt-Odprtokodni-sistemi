@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prevozi</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        #nav-bar{
+            background-color: blue;
+            margin:0%;
+            max-width: 100%;
+        }
+        .login{
+            width: 100%;
+        }
+        #ikona{
+            padding:10%;
+        }
+        .user_info{
+            margin-top: 5%;
+        }
+        .location{
+            margin-top: 5%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container " id="nav-bar">
+        <div class="row align-items-center">
+            <diV class="col-3">
+            <img src="icona.png" id=ikona width="100%" >
+            </diV>
+            <div class="col-1">
+            <h1>PREVOZI</h1>
+            </div>
+            <div class="col-4">
+                
+            </div>
+            <div class="col-2 ">
+                <button class="btn-1 login">
+                    PRIJAVA
+                </button>
+            </div>
+            <div class="col-2">
+                <button class="btn-1 login">
+                    REGISTRACIJA
+                </button>
+            </div>
+        </div>
+    </div>  
+    <div class="user_info container">
+        <div class="row">
+            <form class="add_user">
+                <label>IME</label>
+                <input>
+                <label>PRIIMEK</label>
+                <input>
+                <br>
+                <label>E-POŠTA</label>
+                <input>
+                <br>
+                <label>TELEFON</label>
+                <input>
+                <br>
+                <button>VPIŠI</button>
+
+            </form>
+        </div>    
+    </div>
+    <div class="container location">
+        <div class="row">
+            <div class="col-3">
+            <label>ZAČETNI NASLOV</label>
+            <input>
+            
+            </div>
+        </div>
+        <div class="row" style="margin-top:5%">
+            <div class="col-6" >
+                <label>DATUM</label>
+                <input>
+                <br>
+                <label>ČAS</label>
+                <input>
+            </div>
+            <div class="col-6">
+                <button>TAKOJ</button>
+            </div>
+        </div>
+        <div class="row" style="margin-top:5%">
+            <div class="col-3">
+                <label>KONČNI NASLOV</label>
+                <input>
+             </div>
+        </div>
+        <div class="row" style="margin-top:5%">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=novo%20mesto&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">insert google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+            
+        </div>
+        <div class="row" style="margin-top:5%">
+            <div class="col-6" >
+                <label>ČAS POTI</label>
+                <input>
+                <br>
+                <label>CENA</label>
+                <input>
+            </div>            
+        </div>
+        <div class="row" style="margin-top:5%">
+            <div class="col-2">
+            <button>NAROČI</button>    
+        </div>        
+        </div>
+    </div>
+    <div class="payment">
+
+    </div>
+    <footer class="footer">
+        <H6>that all folks</H6>
+    </footer>   
+</body>
+</html>
